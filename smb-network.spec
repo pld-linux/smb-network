@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/System
 Source0:	http://www.dragonsdawn.net/~gordon/smb-network/%{name}-%{version}.tar.gz
+# Source0-md5:	d32f9883611f30ee187716286a0aa250
 URL:		http://www.dragonsdawn.net/~gordon/smb-network/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Requires:	webserver
