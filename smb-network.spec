@@ -1,4 +1,5 @@
 Summary:	Browse your SMB shares using a web browser
+Summary(pl):	Przegl±daj zasoby dostêpne poprzez SMB za pomoc± przegl±darki
 Name:		smb-network
 Version:	1.15
 Release:	1
@@ -14,6 +15,12 @@ BuildArch:	noarch
 This CGI will allow you to browse your SMB network using a web
 browser. It it ideal for accessing your shares when you are at a
 remote location, and can be used over SSL.
+
+%description -l pl
+Ten skrypt CGI umo¿liwia przegl±danie sieci SMB ("Otoczenie sieciowe",
+lub "Moje miejsca sieciow") za pomoc± przegl±darki WWW. ¦wietnie siê 
+nadaje do uzyskania dostêpu do zasobów bêd±c poza sieci± lokaln±, a 
+w po³±czeniu z SSL gwarantuje bezpieczeñstwo transmisji.
 
 %prep
 %setup -q
