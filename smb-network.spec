@@ -1,12 +1,12 @@
 Summary:	Browse your SMB shares using a web browser
 Summary(pl):	Przegl±danie zasobów dostêpnych poprzez SMB za pomoc± przegl±darki
 Name:		smb-network
-Version:	1.16
+Version:	1.20
 Release:	1
 License:	GPL
 Group:		Applications/System
 Source0:	http://www.dragonsdawn.net/~gordon/smb-network/%{name}-%{version}.tar.gz
-# Source0-md5:	1974043f83c6019fce59e70c42039615
+# Source0-md5:	6b3826c9ab4704dda0ac2c9cfb43e8d9
 URL:		http://www.dragonsdawn.net/~gordon/smb-network/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Requires:	webserver
