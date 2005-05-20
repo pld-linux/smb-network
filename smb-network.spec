@@ -10,7 +10,7 @@ Source0:	http://www.dragonsdawn.net/~gordon/smb-network/%{name}-%{version}.tar.g
 URL:		http://www.dragonsdawn.net/~gordon/smb-network/
 Requires:	webserver
 BuildArch:	noarch
-BuildRoot:      %{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		htmldir		/home/services/httpd/html
 %define		cgidir		/home/services/httpd/cgi-bin
