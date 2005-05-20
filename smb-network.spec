@@ -8,9 +8,9 @@ Group:		Applications/System
 Source0:	http://www.dragonsdawn.net/~gordon/smb-network/%{name}-%{version}.tar.gz
 # Source0-md5:	7697178abc365eff40d3cd201f778b1e
 URL:		http://www.dragonsdawn.net/~gordon/smb-network/
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Requires:	webserver
 BuildArch:	noarch
+BuildRoot:      %{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		htmldir		/home/services/httpd/html
 %define		cgidir		/home/services/httpd/cgi-bin
