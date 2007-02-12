@@ -1,5 +1,5 @@
 Summary:	Browse your SMB shares using a web browser
-Summary(pl.UTF-8):   Przeglądanie zasobów dostępnych poprzez SMB za pomocą przeglądarki
+Summary(pl.UTF-8):	Przeglądanie zasobów dostępnych poprzez SMB za pomocą przeglądarki
 Name:		smb-network
 Version:	1.21
 Release:	1
